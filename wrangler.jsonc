@@ -41,6 +41,13 @@
       "max_instances": 1,
     },
   ],
+  "routes": [
+    {
+      "pattern": "molt.seosd.dev",
+      "zone_name": "seosd.dev",
+      "custom_domain": true
+    }
+  ],
   "durable_objects": {
     "bindings": [
       {
